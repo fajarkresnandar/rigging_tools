@@ -23,7 +23,7 @@ import random
 import re
 
 import bpy
-import rigify
+import rigify # type: ignore
 from bpy.app.handlers import persistent
 from bpy.props import BoolProperty, BoolVectorProperty, EnumProperty, FloatProperty, PointerProperty, StringProperty
 from bpy.types import Menu, Operator, Panel
